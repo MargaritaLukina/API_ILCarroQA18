@@ -33,6 +33,7 @@ public class LoginTestOkHttp {
         AuthResponseDto authResponseDto =
                 gson.fromJson(response.body().string(),AuthResponseDto.class);
         System.out.println(authResponseDto.getAccessToken());
+        //eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoibm9hQGdtYWlsLmNvbSIsImlzcyI6IlJlZ3VsYWl0IiwiZXhwIjoxNjg1ODg5NzQ1LCJpYXQiOjE2ODUyODk3NDV9.gPY6fM5kRTXA67zVZ4_HrsvNDh7gVeLGXHA5yxRX7zU
 
     }
 }
